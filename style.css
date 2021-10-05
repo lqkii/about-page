@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Chloe;
+    src: url(Chloe-Regular.woff);
+}
+
+@font-face {
+    font-family: AeonikPro;
+    src: url(AeonikProTRIAL-Regular.otf);
+}
+
+#title {
+    font-family: Chloe;
+    font-size: 19vw;
+}
+
+#title2 {
+    font-family: Chloe;
+    font-size: 19vw;
+    margin-top: -24%;
+}
+
+#div-title {
+    margin-top: -20%;
+}
+
+#div-insta {
+  margin-top: -14%;  
+}
+
+#insta {
+    font-family: AeonikPro;
+    letter-spacing: 0.1vw;
+}
+
+body {
+    position: relative;
+    left: 2vw;
+}
+
+a {
+    color: black;
+}
