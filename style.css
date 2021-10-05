@@ -18,11 +18,11 @@
     font-family: Chloe;
     font-size: 19vw;
     margin-top: -10%;
-    margin-bottom: 6%;
+    margin-bottom: 4%;
 }
 
 #div-title {
-    margin-top: -20%;
+    margin-top: -22%;
     display: inline-block;
 }
 
@@ -33,12 +33,12 @@
 #insta {
     font-family: AeonikPro;
     letter-spacing: 0.1vw;
-    margin-top: 0;
+    font-size: 0.8vw;
 }
 
 body {
     position: relative;
-    left: 20vw;
+    left: 21vw;
 }
 
 a {
@@ -48,7 +48,16 @@ a {
 #arrow {
     position: relative;
     height: 10vw;
-    margin-top: 26%;
+    margin-top: 32.4%;
     right: 47vw;
     float: right;
+}
+
+body {
+    background-image: url(background1.png);
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center top;
+
 }
