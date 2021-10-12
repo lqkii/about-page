@@ -3,21 +3,29 @@
     <head>
         <title>Lokyin Chow</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
-    <body>
-        <div id="div-title">
+    <body data-barba="wrapper">
+        <header>
             <pre id="title">About</pre>
             <pre id="title2">Me!</pre>
-        </div>
+        </header>
         <img src="arrow.svg" id="arrow">
         </br>
         <div id="div-insta">
             <a href="http://www.instagram.com/lqkii/" target="_block" id="insta">@lqkii</a>
         </div>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+        <div id="aboutme">
+            <pre id="aboutme_text">Hey, I’m Loki! 
+
+                I’m a communication design student at 
+                Parsons and I like to make cool stuff idk </pre>
+        </div>
+        <div id="hk">
+            <pre id="hk_text">HK</pre>
+        </div>
+        <script src="https://unpkg.com/@barba/core"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>

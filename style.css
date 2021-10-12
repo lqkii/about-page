@@ -8,6 +8,11 @@
     src: url(AeonikProTRIAL-Regular.otf);
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
 #title {
     font-family: Chloe;
     font-size: 19vw;
@@ -18,16 +23,18 @@
     font-family: Chloe;
     font-size: 19vw;
     margin-top: -10%;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
 }
 
-#div-title {
-    margin-top: -22%;
+header {
+    margin-top: -20%;
     display: inline-block;
+    opacity: 0;
 }
 
 #div-insta {
     display: inline-block;
+    margin-left: -3.7%;
 }
 
 #insta {
@@ -48,7 +55,7 @@ a {
 #arrow {
     position: relative;
     height: 10vw;
-    margin-top: 32.4%;
+    margin-top: 34.4%;
     right: 47vw;
     float: right;
 }
@@ -61,3 +68,31 @@ body {
     background-position: center top;
 
 }
+
+#aboutme {
+    text-align: right;
+    font-size: 1vw;
+    margin-top: 12%;
+    position: relative;
+    right: 46vw;
+    float: right;
+    
+}
+
+#aboutme_text {
+    font-family: AeonikPro;
+    letter-spacing: 0.1vw;
+}
+
+#hk {
+    text-align: left;
+    float: left;
+    font-size: 5vw;
+    margin-top: 7.5%;
+}
+
+#hk_text {
+    font-family: Chloe;
+    letter-spacing: -1.07vw;
+}
+
