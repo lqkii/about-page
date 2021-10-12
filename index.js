@@ -46,7 +46,6 @@ gsap.to("#hk", {
 gsap.to("#arrow", {
     scrollTrigger: {
         trigger:  "#aboutme",
-        markers: true,
         scrub: 1
     },
     y: -500,
@@ -57,7 +56,6 @@ gsap.to("#arrow", {
 gsap.to("#div-insta", {
     scrollTrigger: {
         trigger:  "#aboutme",
-        markers: true,
         scrub: 1
     },
     y: -840,
