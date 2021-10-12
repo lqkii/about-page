@@ -80,6 +80,12 @@ gsap.to("#title2", {
     ease: "power1.OutOut"
 });
 
+function resizeCheck(){
+    var progress = action.progress(); //record the progress so that we can match it with the new tween (jump to the same spot)
+    action.kill(); //rewind and kill the original tween.
+    bezier().progress(progress); //create a new tween based on the new size, and jump to the same progress value.
+   
+  }
 
 barba.init({
     // ...
