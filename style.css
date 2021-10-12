@@ -40,7 +40,8 @@ header {
 #insta {
     font-family: AeonikPro;
     letter-spacing: 0.1vw;
-    font-size: 0.8vw;
+    font-size: 1.2vw;
+    margin-top: 10%;
 }
 
 body {
@@ -56,7 +57,7 @@ a {
     position: relative;
     height: 10vw;
     margin-top: 34.4%;
-    right: 47vw;
+    right: 46vw;
     float: right;
 }
 
@@ -71,8 +72,8 @@ body {
 
 #aboutme {
     text-align: right;
-    font-size: 1vw;
-    margin-top: 12%;
+    font-size: 1.2vw;
+    margin-top: 11%;
     position: relative;
     right: 46vw;
     float: right;
@@ -88,7 +89,7 @@ body {
     text-align: left;
     float: left;
     font-size: 5vw;
-    margin-top: 7.5%;
+    margin-top: 7.4%;
 }
 
 #hk_text {

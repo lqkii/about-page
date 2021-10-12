@@ -24,37 +24,44 @@ gsap.from("#div-insta", {
 });
 
 gsap.to("#aboutme", {
-    scrollTrigger: "#aboutme",
-    y: -200,
-    opacity: 100,
-    duration: 1.5,
+    scrollTrigger: {
+        trigger:  "#aboutme",
+        scrub: 1
+    },
+    y: -500,
+    duration: 1,
     ease: "expo.OutOut"
 });
 
 gsap.to("#hk", {
-    scrollTrigger: "#aboutme",
-    y: -200,
-    opacity: 100,
-    duration: 1.5,
+    scrollTrigger: {
+        trigger:  "#aboutme",
+        scrub: 1
+    },
+    y: -500,
+    duration: 1,
     ease: "expo.OutOut"
 });
 
 gsap.to("#arrow", {
-    scrollTrigger: "#aboutme",
-    y: -250,
-    opacity: 100,
-    duration: 1.5,
+    scrollTrigger: {
+        trigger:  "#aboutme",
+        markers: true,
+        scrub: 1
+    },
+    y: -500,
+    duration: 1,
     ease: "expo.OutOut"
 });
 
 gsap.to("#div-insta", {
     scrollTrigger: {
         trigger:  "#aboutme",
-        markers: true
+        markers: true,
+        scrub: 1
     },
-    y: -438,
-    opacity: 100,
-    duration: 1.5,
+    y: -840,
+    duration: 1,
     ease: "expo.OutOut"
 });
 
@@ -86,6 +93,10 @@ function resizeCheck(){
     bezier().progress(progress); //create a new tween based on the new size, and jump to the same progress value.
    
   }
+
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }  
 
 barba.init({
     // ...
